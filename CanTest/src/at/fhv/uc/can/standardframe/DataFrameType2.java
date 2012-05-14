@@ -26,6 +26,9 @@ public class DataFrameType2 extends DataFrame{
 		this.m_sessionID = sessionID;
 	}
 	
+	/**
+	 * writes the data of the frame into a string
+	 */
 	public String toString(){
 		return "Type: " + m_type + " , SensorID: " + m_sensorID + ", SessionID: " + m_sessionID;
 	}

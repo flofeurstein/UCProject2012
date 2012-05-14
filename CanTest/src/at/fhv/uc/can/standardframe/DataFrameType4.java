@@ -26,6 +26,9 @@ public class DataFrameType4 extends DataFrame{
 		this.m_humidity = humidity;
 	}
 	
+	/**
+	 * writes the data of the frame into a string
+	 */
 	public String toString(){
 		return "Type: " + m_type + " , SessionID: " + m_sessionID + ", Humidity: " + m_humidity;
 	}

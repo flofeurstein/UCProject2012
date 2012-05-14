@@ -1,6 +1,9 @@
 package at.fhv.uc.can.standardframe;
 
 public class DataFrame {
+	/**
+	 * type of the dataframe (0 - 4)
+	 */
 	protected int m_type;
 
 	public DataFrame(){

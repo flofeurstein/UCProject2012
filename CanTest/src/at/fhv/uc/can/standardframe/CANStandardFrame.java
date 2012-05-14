@@ -13,6 +13,12 @@ public class CANStandardFrame {
 		parseBytes(canData);
 	}
 	
+	/**
+	 * parseBytes
+	 * parses the byte array in the format of a CAN-Standard-Frame, defines the type of the dataframe
+	 * and writes the data of the DATA-Segment from the CAN-Standard-Frame into the DataFrame objects
+	 * @param canData byte array in a CAN-Standard-Frame format
+	 */
 	public void parseBytes(byte[] canData){
 		short ident = (short)((canData[0] << 8) | canData[1] & 0xff);//0xff to make the byte unsigned
 		m_identifier = (ident>>4);

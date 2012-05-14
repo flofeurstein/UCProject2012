@@ -16,6 +16,9 @@ public class DataFrameType0 extends DataFrame{
 		this.m_tabletID = tabletID;
 	}	
 	
+	/**
+	 * writes the data of the frame into a string
+	 */
 	public String toString(){
 		return "Type: " + m_type + " , TabletID: " + m_tabletID;
 	}

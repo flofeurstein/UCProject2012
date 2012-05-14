@@ -16,6 +16,9 @@ public class DataFrameType1 extends DataFrame{
 		this.m_sensorID = sensorID;
 	}
 	
+	/**
+	 * writes the data of the frame into a string
+	 */
 	public String toString(){
 		return "Type: " + m_type + " , SensorID: " + m_sensorID;
 	}

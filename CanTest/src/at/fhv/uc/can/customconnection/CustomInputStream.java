@@ -11,6 +11,11 @@ public class CustomInputStream extends FilterInputStream{
 		// TODO Auto-generated constructor stub
 	}
 	
+	/**
+	 * slowRead
+	 * counterpart of the slowWrite function, receives an integer (nr of bytes to receive) and then the bytes
+	 * @return an byte array with all the received bytes
+	 */
 	public byte[] slowRead(){
 		int len;
 		byte[] b = null;

@@ -26,6 +26,9 @@ public class DataFrameType3 extends DataFrame{
 		this.m_temperature = temperature;
 	}
 	
+	/**
+	 * writes the data of the frame into a string
+	 */
 	public String toString(){
 		return "Type: " + m_type + " , SessionID: " + m_sessionID + ", Temperature: " + m_temperature;
 	}

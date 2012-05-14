@@ -38,6 +38,9 @@ public class SensorBoard {
 		m_cansim = new CANFrameSimulator();
 	}
 	
+	/**
+	 * getter and setter
+	 */
 	public int getTemperature(){
 		m_counter++;
 		m_rand = (int)Math.round(Math.random()*10);
